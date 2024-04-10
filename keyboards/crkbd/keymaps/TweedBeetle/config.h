@@ -43,4 +43,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
+#define TAPPING_TERM 200
+#define AUTO_SHIFT_TIMEOUT 200
+
+
+// MOUSE
 #define PS2_MOUSE_ROTATE 15
+
+#define PS2_MOUSE_X_MULTIPLIER 1.8
+#define PS2_MOUSE_Y_MULTIPLIER 1.8
+// #define PS2_MOUSE_V_MULTIPLIER 2
